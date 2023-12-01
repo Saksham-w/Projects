@@ -1,0 +1,1 @@
+This is a basic descriptive website which provides description about a person/thing.

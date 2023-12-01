@@ -1,0 +1,1 @@
+Here users can switch between dark and light mode.

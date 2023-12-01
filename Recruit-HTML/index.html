@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Ms+Madi&family=Plus+Jakarta+Sans:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');/* background image*/
+            height: 100vh;/*scroll */
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          
+        }
+
+       
+        .left{
+            display: inline-block;/* use to make the block act as inline and use the features of block ie border,position,left,top an left*/
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        .left img{
+            width: 100px;
+        }
+        .left div{
+            /* line-height: 19px; */
+            font-size: 26px;
+            text-align: center;
+        }
+        .mid{
+            display: block;/* use to make the block centre(inline-block can also be used*/
+            width: 50%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+
+        }
+        .right{
+            display: inline-block;/* use to make this block act as inline and use the features of block make placed at right*/
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block; 
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px;
+        }
+        .navbar li a:hover{
+         text-decoration: underline;
+         color: grey;
+        }
+        .btn{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 100px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 20px;
+            position: sticky;
+            top: 3px;
+
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 504px;
+            padding: 6px;
+            border: 2px solid black;
+            margin: 5px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container h1{
+            text-align: center;
+
+        }
+        .container button{
+            display: block;
+            width: 75%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+       <div class="left"><!-- left box for logo -->
+            <img src="img/logo.png"alt="">
+            <div>Football Center</div>
+       </div> 
+       <div class="mid"><!-- mid box for navbar -->
+       <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Football</a></li>
+        <li><a href="#">Contact us</a></li>
+       </div>
+       <div class="right"><!-- right box for buttons -->
+        <button class="btn">Call us</button>
+        <button class="btn">Email us</button>
+       </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best football school in nepal</h1>
+           <form action="noaction.php">
+               <div class="form-group">
+                   <input type="text" name="" placeholder="Enter your name">
+               </div>
+               <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Submit</button>
+
+           </form> 
+    </div>
+</body>
+</html>

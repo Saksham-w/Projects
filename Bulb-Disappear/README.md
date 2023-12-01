@@ -1,0 +1,1 @@
+This is a simple project where you can make bulbs(circles) disappear and reappear on click.
