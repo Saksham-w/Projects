@@ -1,0 +1,1 @@
+This is an website for shopping furniture accesories developed using HTML and CSS only.
